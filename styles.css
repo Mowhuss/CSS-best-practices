@@ -6,32 +6,28 @@
     border: 1px grey solid;
     width:100%;
     height: 1000px;
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
 }
 
 .row{
     width: 100%;
-    max-width: 600px;
+    max-width: 893px;
     margin: 0 auto;
 }
 
-.title{
-    border: gray solid;
-    width: 100%;
-    height:24px;
-    margin-bottom: 10px;
-    
+.paragraph{
+    border: grey solid;
+    width: 400px;
+    height: 130px;
+    margin-bottom: 24px;
+    margin-right: 20px;
 }
 
 .box{
     border: grey solid;
-    width: 30%;
-    height: 100px;
-    margin-bottom: 10px;
+    width: 400px;
+    height: 438px;
 }
 
-.boxwrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
