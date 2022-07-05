@@ -28,6 +28,19 @@
 .box{
     border: grey solid;
     width: 400px;
+    min-width: none;
     height: 438px;
 }
 
+.boxwrapper{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.box1{
+    border: grey solid;
+    height: 130px;
+    width: 30%;
+
+}
