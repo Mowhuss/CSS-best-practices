@@ -1,0 +1,35 @@
+*{
+    border-style:border-box;
+}
+
+.container{
+    border: grey solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.boxm{
+    width: 50px;
+    height: 50px;
+    border: solid grey;
+    
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    border: solid grey;
+    margin-left: 5px;
+
+}
+
+.smallboxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
